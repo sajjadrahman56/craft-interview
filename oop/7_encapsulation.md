@@ -1,4 +1,4 @@
-# **Encapsulation in OOP: A Complete Interview-Focused Guide**
+# **Encapsulation in OOP**
 Encapsulation is the process of binding data (variables) and code (methods) together as a single unit and hiding the internal details from external access.
 
 **Analogy**: Think of a car. You can drive it using the pedals and steering wheel without needing to understand how the engine works. The engine is encapsulated.
