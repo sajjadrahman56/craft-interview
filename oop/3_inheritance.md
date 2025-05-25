@@ -64,6 +64,7 @@ The child **overrides** the parent method.
 <details><summary>📌 Example</summary>
 
 ```python
+
 class Animal:
     def speak(self):
         print("Animal speaks")
@@ -74,6 +75,7 @@ class Cat(Animal):
 
 cat = Cat()
 cat.speak()  # Output: Meow
+
 ```
 </details>
 
@@ -84,7 +86,6 @@ Yes! Child classes can have **additional behaviors**.
 <details><summary>📌 Example</summary>
     
 ```python
-
 class Animal:
     def speak(self):
         print("Animal speaks")
@@ -104,7 +105,9 @@ dog.bark()   # From child
 `super()` lets the child class call methods from its parent—especially useful when **overriding methods**.
 
 <details><summary>📌 Example</summary>
+    
 ```python
+
 class Animal:
     def speak(self):
         print("Animal speaks")
@@ -119,6 +122,7 @@ dog.speak()
 # Output:
 # Animal speaks
 # Dog barks
+
 ```
 </details>
 
@@ -131,6 +135,7 @@ Any object of a subclass should be replaceable for its parent class **without br
 <details><summary>📌 Example</summary>
 
 ```python
+
 class Bird:
     def fly(self):
         print("Flying")
@@ -142,6 +147,7 @@ def lift_off(bird):
     bird.fly()
 
 lift_off(Sparrow())  # ✅ Works fine
+
 ```
 </details>
 
