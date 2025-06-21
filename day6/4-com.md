@@ -56,3 +56,8 @@ lets marge changes from the docs branh
 
 Target Branch : Master 
 Source Branch : docs 
+
+steps:
+  git checkout master
+  marge the changes from source branch 
+  git marge docs  
