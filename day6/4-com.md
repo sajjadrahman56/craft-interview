@@ -47,3 +47,12 @@ since we are createing another branches and find the info here
 7b80130 (origin/main, origin/HEAD, main) git command restore
 ```
 ![alt text](image-1.png)
+
+
+Marge is an operation to bring all the changes from one branch to another 
+
+lets marge changes from the docs branh 
+
+
+Target Branch : Master 
+Source Branch : docs 
