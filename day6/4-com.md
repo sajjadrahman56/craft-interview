@@ -34,9 +34,16 @@ now check
 
 we get 
 ```git
-F C@sajjad MINGW64 /f/0- rajesh sir/0-git-learn/inter/craft-interview/day6 ((7b80130...))       
+F C@sajjad MINGW64 /f/0- ****/0-git-learn/inter/craft-interview/day6 ((7b80130...))       
 $ git branch
 * (HEAD detached at 7b80130)
   docs
   main
 ```
+
+since we are createing another branches and find the info here 
+```$ git log --oneline
+71596f5 (HEAD -> docs) add day6
+7b80130 (origin/main, origin/HEAD, main) git command restore
+```
+![alt text](image-1.png)
